@@ -1,3 +1,7 @@
+# NAME
+
+Web::API::Moo - quickly implement a REST API
+
 # SYNOPSIS
 
 Implement the RESTful API of your choice in 10 minutes, roughly.
@@ -6,7 +10,7 @@ Implement the RESTful API of your choice in 10 minutes, roughly.
     package Net::CloudProvider;
 
     use Moo;
-    
+
     with 'Web::API::Moo';
 
     our $VERSION = "0.1";
@@ -88,7 +92,7 @@ Implement the RESTful API of your choice in 10 minutes, roughly.
     }
 
     1;
-``` 
+```
 
 later use as:
 

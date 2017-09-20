@@ -25,6 +25,12 @@ use Time::HiRes 'sleep';
 
 $Net::OAuth::PROTOCOL_VERSION = Net::OAuth::PROTOCOL_VERSION_1_0A;
 
+=head1 NAME
+
+Web::API::Moo - quickly implement a REST API
+
+=cut
+
 our $VERSION = '0.01';
 
 our $AUTOLOAD;
